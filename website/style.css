@@ -1,0 +1,19 @@
+@import url("header.css");
+@import url("navigation-menu.css");
+@import url("content.css");
+@import url("quick-links.css");
+@import url("footer.css");
+@import url("product-css.css");
+@import url("css-max-width-480px.css") screen and (max-width: 480px);
+@import url("css-max-width-768px.css") screen and (max-width: 768px);
+@import url("css-max-width-992px.css") screen and (max-width: 992px);
+@import url("media-screen.css") screen and (min-width: 992px) and (max-width: 1200px) ;
+* {
+	font-family: 'Lato', sans-serif;
+}
+.fa-color {
+	color: red;
+}
+.clearing-padding{
+	padding: 0px;
+}

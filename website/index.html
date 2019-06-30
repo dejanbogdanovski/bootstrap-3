@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car Store</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/e115de89bc.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+
+<!--First part of the header -->
+	<div class="container-fluid background-color-header">
+    <div class="row header-top">
+      <div class="col-lg-12 align-right aligning-top-header header-padding">
+        <ul class="header-ul-styling">
+          <li class="display-inline padding-header-top"><i class="fas fa-search fa-search-size"></i></li>
+          <li class="display-inline padding-header-top li-search-margin"><div class="first-row-ver-line"></div></li>
+          <li class="display-inline padding-header-top li-checkout-margin" style="color: red"><i class="fas fa-check-circle fa-icons-margin"></i>Checkout</li>
+          <li class="display-inline padding-header-top li-margin" style="color: red"><i class="fas fa-cart-plus fa-icons-margin"></i>Cart</li>
+          <li class="display-inline padding-header-top li-margin " style="color: red"><i class="fas fa-user-alt fa-icons-margin"></i>My account</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+<!--Horizontal line -->
+  <div class="container-fluid background-color-header">
+  <div class="row line-styling-header">
+    <div class="col-lg-12">
+      <div class="header-end-horizontal-style"></div>
+    </div>
+  </div>
+</div>
+
+
+<!--Second part of the header -->
+  <div class="container-fluid background-color-header">
+    <div class="row header">
+      <div class="col-lg-3 col-md-4 col-sm-4 header-padding aligning-information displaing-small">
+        <img src="logo-image.jpg" class="img-rounded displaing-small" alt="CarStore logo">
+      </div>
+      
+      <div class="col-lg-6 col-md-8 col-sm-8  header-padding aligning-information not-displaying">
+        <div style="width: 100%;">
+        <p class="align-right mob-num-inf-styling" style="display: block;color: white;"><i class="fas fa-mobile-alt mobile-fa-margin fa-color"></i>+123 456 7890</p> 
+        <p class="align-right genera-inf-styling" style="display: block; color: white;"> MON-FRI: 8:30AM-7:30PM; SAT-SUN:9:30AM-4:30PM</p>
+        </div>
+      </div>
+
+      <div class="col-lg-1 col-md-4 col-sm-4 header-padding aligning"><div class="second-row-ver-line"></div>
+          <div style="margin: auto;">
+          <i class="fas fa-star fa-styling fa-lg fa-color" style="display: block;"></i>
+          <p class="display-block" style="display: block; color: white;">WISHLIST</p>
+          </div>
+      </div>
+
+      <div class="col-lg-1 col-md-4 col-sm-4 header-padding aligning"> <div class="second-row-ver-line"></div>
+          <div style="margin: auto;">
+          <i class="fas fa-car fa-header-styling fa-color" style="display: block;"></i>
+          <p class="display-block" style="display: block; color: white;"> COMPARE</p>
+          </div>
+      </div>
+
+      <div class="col-lg-1 col-md-4 col-sm-4 header-padding aligning"><div class="second-row-ver-line"></div>
+          <div style="margin: auto;">
+          <i class="fas fa-lg fa-shopping-cart fa-styling fa-color" style="display: block;"></i>
+          <p class="display-block" style="display: block; color: white;"> MY CART</p>
+          </div>
+      </div>
+
+    </div>
+  </div>
+
+
+<!--Navigation bar -->
+<nav class="navbar navbar-default no-border">
+  <div class="container-fluid clearing-padding navigation-color">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#alignment-example" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="alignment-example">
+      <ul class="nav navbar-nav menu-color-white">
+        <li class="margin-home"><a href="#"><p class="menu-color-white">Home</p></a></li>
+        <li class="margin-menu-other menu-color-white"><a href="#"><p class="menu-color-white">Services</p></a></li>
+        <li class="margin-menu-other menu-color-white"><a href="#"><p class="menu-color-white">About</p></a></li>
+        <li class="margin-menu-other menu-color-white"><a href="#"><p class="menu-color-white">Reviews</p></a></li>
+        <li class="margin-menu-other menu-color-white"><a href="#"><p class="menu-color-white">Locations</p></a></li>
+        <li class="margin-menu-other menu-color-white"><a href="#"><p class="menu-color-white">Contacts</p></a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+
+<!--Image under navigation bar -->
+<div class="container-fluid clearing-padding" style="margin-top: -20px;">
+  <img src="under-nav-menu.jpg" class="img-responsive" alt="Responsive image">
+</div>
+
+
+<!--Under the first big image -->
+<div class="container-fluid">
+  <div class="row">
+
+    <div class="col-lg-6 clearing-padding">
+      <div class="first-image-transparent">
+        <div class="first-transparent"></div>
+        <div class="text-pos">
+          <h2 class="white-text">HEADLIGHTS</h2>
+          <p class="gray-text">Headlights projector, LED, Factory</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 clearing-padding">
+      <div class="second-image-transparent">
+        <div class="second-transparent"></div>
+        <div class="text-pos">
+          <h2 class="white-text">HEADLIGHTS</h2>
+          <p class="gray-text">Headlights projector, LED, Factory</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+
+    <div class="col-lg-6 clearing-padding">
+      <div class="third-image-transparent">
+        <div class="third-transparent"></div>
+          <div class="text-pos">
+            <h2 class="white-text">HEADLIGHTS</h2>
+            <p class="gray-text">Headlights projector, LED, Factory</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 clearing-padding">
+      <div class="forth-image-transparent">
+        <div class="forth-transparent"></div>
+          <div class="text-pos">
+            <h2 class="white-text">HEADLIGHTS</h2>
+            <p class="gray-text">Headlights projector, LED, Factory</p>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!--Products -->
+<div class="container-fluid products">
+  <div class="container-fluid inside-products">
+
+    <div class="container-fluid featured-products">
+      <div class="featured-product-inside">
+        <h2 class="featured-color-white">FEATURED PRODUCTS</h2>
+        <div class="featured-horizontal-line"></div>
+      </div>
+    </div>
+
+    <div class="first-product products-margin">
+      <h4 class="product-text-red">HEADLIGHTS</h4>
+      <p class="product-text-white">$300.00</p>
+      <div>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+    <div class="second-product products-margin">
+      <h4 class="product-text-red">HEADLIGHTS</h4>
+      <p class="product-text-white">$300.00</p>
+      <div>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+    <div class="third-product products-margin">
+      <h4 class="product-text-red">HEADLIGHTS</h4>
+      <p class="product-text-white">$300.00</p>
+      <div>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+    <div class="forth-product products-margin">
+      <h4 class="product-text-red">HEADLIGHTS</h4>
+      <p class="product-text-white">$300.00</p>
+      <div>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+    <div class="fifth-product products-margin">
+      <h4 class="product-text-red">HEADLIGHTS</h4>
+      <p class="product-text-white">$300.00</p>
+      <div>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!--Before quick links -->
+<div class="container-fluid">
+  <div class="row before-footer-links">
+
+    <div class="col-lg-6 clearing-padding">
+      <div class="bfl-first-div bfl-text-white">
+        <p class="bfl-text-area-margin">25% OFF</p>
+        <p class="bfl-second-p">ON ORDER OVER $999</p>
+        <p class="bfl-third-p">This Offer is valid on all our items</p>
+        <button class="bfl-button">BUY NOW</button>
+      </div>
+    </div>
+
+    <div class="col-lg-6 clearing-padding">
+      <div class="bfl-second-div bfl-text-white">
+        <p class="bfl-text-area-margin">25% OFF</p>
+        <p class="bfl-second-p">ON ORDER OVER $999</p>
+        <p class="bfl-third-p">This Offer is valid on all our items</p>
+        <button type="button" class="bfl-button">BUY NOW</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!--Quick links -->
+<div class="container-fluid background-color-quick-links">
+  <div class="row quick-links-row">
+
+    <div class="col-lg-3 col-md-6 col-sm-6 clearing-padding quick-links-align">
+      <p class="quick-links-tit-white tit-font-size">QUICK LINKS</p>
+      <div class="quick-links-horisontal-line"></div>
+      <p>About Us</p>
+      <p>Customer Service</p>
+      <p>Privacy Policy</p>
+      <p>Site Map</p>
+      <p>Search Terms</p>
+      <p>Advanced Search</p>
+      <p>Order and Returns</p>
+      <p>Contact Us</p>
+    </div>
+    
+     <div class="col-lg-3 col-md-6 col-sm-6 clearing-padding quick-links-align">
+      <p class="quick-links-tit-white tit-font-size">QUICK LINKS</p>
+      <div class="quick-links-horisontal-line"></div>
+      <p>About Us</p>
+      <p>Customer Service</p>
+      <p>Privacy Policy</p>
+      <p>Site Map</p>
+      <p>Search Terms</p>
+      <p>Advanced Search</p>
+      <p>Order and Returns</p>
+      <p>Contact Us</p>
+    </div>
+
+     <div class="col-lg-3 col-md-6 col-sm-6 clearing-padding quick-links-align">
+      <p class="quick-links-tit-white tit-font-size">QUICK LINKS</p>
+      <div class="quick-links-horisontal-line"></div>
+      <p>About Us</p>
+      <p>Customer Service</p>
+      <p>Privacy Policy</p>
+      <p>Site Map</p>
+      <p>Search Terms</p>
+      <p>Advanced Search</p>
+      <p>Order and Returns</p>
+      <p>Contact Us</p>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-6 clearing-padding quick-links-align">
+      <div class="quick-links-news quick-links-align">
+        <p class="quick-links-tit-white tit-font-size">NEWSLETTER</p>
+        <div class="quick-links-horisontal-line"></div>
+        <p><span class="news-span-display-block news-color-gray news-font-size">Lorem ipsum dolor sit amet, consectetur adi-</span>
+        <span class="news-span-display-block news-color-gray news-font-size">piscing elit, sed do eiusmod tempor incididunt</span></p>
+        <form><input type="text" STYLE="color: #FFFFFF; background-color: #282828; border: none;" class="news-input-search" name=""></form>
+        <button class="news-button quick-links-button-align">SUBMIT</button>
+        <div class="social-media-fa-icons quick-links-align">
+          <i class="fab fa-facebook-f fa-margin"></i>
+          <i class="fab fa-twitter fa-margin"></i>
+          <i class="fab fa-google-plus-g fa-margin"></i>
+          <i class="fab fa-instagram fa-margin"></i>
+          <i class="fab fab fa-pinterest-p fa-margin"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!--Horizontal line -->
+<div class="container-fluid background-color-footer">
+  <div class="row line-styling">
+    <div class="col-lg-12">
+      <div class="footer-end-horizontal-style"></div>
+    </div>
+  </div>
+</div>
+
+
+<!--Footer -->
+<div class="container-fluid background-color-footer">
+  <div class="row footer-styling">
+    
+    <div class="col-lg-4">
+      <div class="footer-item">
+        <h5 class="footer-tit-white footer-tit-size">INFORMATION</h5>
+        <div class="footer-small-horisontal-line"></div>
+        <p class="footer-paragraph-style">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="footer-item">
+        <h5 class="footer-tit-white footer-tit-size">INFORMATION</h5>
+        <div class="footer-small-horisontal-line"></div>
+        <p class="footer-paragraph-style">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="footer-information">
+        <h5 class="footer-tit-white footer-tit-size">CONTACT</h5>
+        <div class="footer-small-horisontal-line"></div>
+        <div>
+          <p class="footer-paragraph-inline footer-information-font-size"> <i class="fas fa-map-marker-alt fa-color"></i>123, Main Road, Your City, NY 1234</p>
+        </div>
+        <div>
+          <p class="footer-paragraph-inline footer-information-font-size"><i class="fas fa-phone-square fa-color"></i>+123 456 7890</p>
+        </div>
+        <div>
+          <p class="footer-paragraph-inline footer-information-font-size"><i class="fas fa-clock fa-color"></i>7 Days a week from 10:00 am to 6:00 pm</p>
+        </div>
+        <div>
+          <p class="footer-paragraph-inline footer-information-font-size"><i class="fas fa-envelope  fa-color"></i>info@psdfreebies.com</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!--Horizontal line -->
+<div class="container-fluid background-color-footer">
+  <div class="row line-styling">
+    <div class="col-lg-12">
+      <div class="footer-end-horizontal-style"></div>
+    </div>
+  </div>
+</div>
+
+
+<!--Footer-bottom -->
+<div class="container-fluid background-color-footer">
+  <div class="row footer-end-styling">
+
+    <div class=" col-lg-6 col-md-6">
+      <p class="footer-end-item-left footer-end-align-left aligning-center-480px aligning-center-992px footer-tex-size"><span class="span-white">CarStore</span><span class="span-gray"> Ⓒ 2017. All rights reserved</span></p>
+    </div>
+
+    <div class=" col-lg-6 col-md-6">
+      <div class="footer-end-item-right footer-end-align-right aligning-center-480px aligning-center-992px footer-fa-color footer-end-margin footer-end-margin-main">
+        <i class="fab fa-cc-diners-club fa-2x fa-icons-display-inline footer-end-margin"></i>
+        <i class="fas fa-closed-captioning fa-size-end-footer fa-icons-display-inline footer-end-margin"></i>
+        <i class="fab fa-cc-mastercard fa-2x fa-icons-display-inline footer-end-margin"></i>
+        <i class="fab fa-cc-visa fa-2x fa-icons-display-inline footer-end-margin"></i>
+        <i class="fab fa-cc-paypal fa-2x  fa-icons-display-inline footer-end-margin"></i>
+        <i class="fab fa-cc-amex fa-2x fa-icons-display-inline footer-end-margin foter-icon-right-margin"></i>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/e115de89bc.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+</html>
